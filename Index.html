@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxym</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="background" id="background"></div>
+        <div class="banner">
+            <div class="left">
+                <h1>WEDDING MEMORIES</h1>
+                <p>20-2-2024</p>
+                <p>Park Hyatt - Hyderabad</p>
+                <a href="https://www.proxym.in" class="highlight" target="_blank">www.proxym.in</a>
+            </div>
+            <div class="right">
+                <div class="image-box">
+                    <img id="memoryImage" src="images/banner_img1.jpg" alt="Wedding Memory">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="grid-wrapper">
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&auto=format&fit=crop&q=60"
+                alt="Paris">
+            <div class="overlay">Paris, France</div>
+        </div>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500&auto=format&fit=crop&q=60"
+                alt="New York">
+            <div class="overlay">New York, USA</div>
+        </div>
+        <div class="image-container tall">
+            <img src="https://images.unsplash.com/photo-1616091093714-c64882e9ab55?w=500&auto=format&fit=crop&q=60"
+                alt="Tokyo">
+            <div class="overlay">Tokyo, Japan</div>
+        </div>
+        <div class="image-container wide">
+            <img src="https://plus.unsplash.com/premium_photo-1708276231926-996b3cf6c846?w=500&auto=format&fit=crop&q=60"
+                alt="London">
+            <div class="overlay">London, UK</div>
+        </div>
+        <div class="image-container video">
+            <video autoplay loop muted playsinline>
+                <source src="images/proxym.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay">London, UK</div>
+        </div>
+        <div class="image-container big video">
+            <video autoplay loop muted playsinline>
+                <source src="images/proxym_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay">London, UK</div>
+        </div>
+        <div class="image-container">
+            <img src="https://plus.unsplash.com/premium_photo-1673758910678-e335643d0817?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8amV3ZWxsZXJ5JTIwbW9kZWx8ZW58MHx8MHx8fDA%3D"
+                alt="New York">
+            <div class="overlay">New York, USA</div>
+        </div>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amV3ZWxsZXJ5JTIwbW9kZWx8ZW58MHx8MHx8fDA%3D"
+                alt="New York">
+            <div class="overlay">New York, USA</div>
+        </div>
+        <div class="image-container big">
+            <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hvZSUyMG1vZGVsfGVufDB8fDB8fHww"
+                alt="London">
+            <div class="overlay">London, UK</div>
+        </div>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1625158244150-5cf613b736c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRyZXNzJTIwbW9kZWx8ZW58MHx8MHx8fDA%3D"
+                alt="Paris">
+            <div class="overlay">Paris, France</div>
+        </div>
+        <div class="image-container tall">
+            <img src="https://images.unsplash.com/photo-1598554889165-8139a49f2883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRyZXNzJTIwbW9kZWx8ZW58MHx8MHx8fDA%3D"
+                alt="Tokyo">
+            <div class="overlay">Tokyo, Japan</div>
+        </div>
+    </div>
+
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <span class="prev">&#10094;</span>
+        <div class="lightbox-content">
+            <img src="" alt="Popup Image">
+            <video autoplay loop muted playsinline>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+        <span class="next">&#10095;</span>
+    </div>
+
+    <div class="bottom-nav">
+        <i class="fa-solid fa-house nav-icon"></i>
+        <i class="fa-solid fa-magnifying-glass nav-icon"></i>
+        <i class="fa-solid fa-calendar-plus nav-icon active"></i>
+        <i class="fa-regular fa-comment nav-icon"></i>
+        <i class="fa-regular fa-user nav-icon"></i>
+    </div>
+
+    <script>
+        const backgroundImages = [
+            "https://static.vecteezy.com/system/resources/previews/049/547/613/non_2x/stunning-high-resolution-nature-and-landscape-backgrounds-breathtaking-scenery-in-hd-photo.jpg",
+            "https://images.template.net/wp-content/uploads/2015/09/16202744/Romantic-Couple-HD-Background-for-PC.jpg",
+            "https://plus.unsplash.com/premium_photo-1673306778968-5aab577a7365?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww",
+            "https://static.vecteezy.com/system/resources/previews/049/547/613/non_2x/stunning-high-resolution-nature-and-landscape-backgrounds-breathtaking-scenery-in-hd-photo.jpg"
+        ];
+
+        const foregroundImages = [
+            "https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg",
+            "https://static.vecteezy.com/system/resources/thumbnails/049/547/615/small/stunning-high-resolution-nature-and-landscape-backgrounds-breathtaking-scenery-in-hd-photo.jpg",
+            "https://images.template.net/wp-content/uploads/2015/09/16202744/Romantic-Couple-HD-Background-for-PC.jpg",
+            "https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-in-the-style-of-romantic-seascapes-image_2882661.jpg"
+        ];
+
+        let bgIndex = 0;
+        let fgIndex = 0;
+
+        function updateImages() {
+            const background = document.getElementById("background");
+            const memoryImage = document.getElementById("memoryImage");
+
+            background.style.backgroundImage = `url(${backgroundImages[bgIndex]})`;
+            memoryImage.src = foregroundImages[fgIndex];
+
+            bgIndex = (bgIndex + 1) % backgroundImages.length;
+            fgIndex = (fgIndex + 1) % foregroundImages.length;
+        }
+
+        updateImages(); // Set first images immediately
+        setInterval(updateImages, 8000); // Change images every 8 seconds
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const items = document.querySelectorAll('.grid-wrapper img, .grid-wrapper video');
+            const lightbox = document.querySelector('.lightbox');
+            const lightboxImg = document.querySelector('.lightbox img');
+            const lightboxVideo = document.querySelector('.lightbox video');
+            const videoSource = lightboxVideo.querySelector('source');
+            const closeBtn = document.querySelector('.lightbox .close');
+            const prevBtn = document.querySelector('.lightbox .prev');
+            const nextBtn = document.querySelector('.lightbox .next');
+            let currentIndex = 0;
+
+            function showLightbox(index) {
+                if (index < 0) index = items.length - 1;
+                if (index >= items.length) index = 0;
+                currentIndex = index;
+
+                const item = items[currentIndex];
+
+                if (item.tagName === "IMG") {
+                    lightboxImg.src = item.src;
+                    lightboxImg.style.display = "block";
+                    lightboxVideo.style.display = "none";
+                } else if (item.tagName === "VIDEO") {
+                    videoSource.src = item.querySelector('source').src;
+                    lightboxVideo.load(); // Reload video source
+                    lightboxVideo.style.display = "block";
+                    lightboxImg.style.display = "none";
+                }
+
+                lightbox.style.display = 'flex';
+            }
+
+            items.forEach((item, index) => {
+                item.addEventListener('click', () => showLightbox(index));
+            });
+
+            closeBtn.addEventListener('click', () => {
+                lightbox.style.display = 'none';
+                lightboxVideo.pause(); // Pause video when closing
+            });
+
+            prevBtn.addEventListener('click', () => showLightbox(currentIndex - 1));
+            nextBtn.addEventListener('click', () => showLightbox(currentIndex + 1));
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === "Escape") {
+                    lightbox.style.display = 'none';
+                    lightboxVideo.pause();
+                } else if (e.key === "ArrowLeft") showLightbox(currentIndex - 1);
+                else if (e.key === "ArrowRight") showLightbox(currentIndex + 1);
+            });
+
+            // Prevent Lightbox from Opening on Page Load
+            lightbox.style.display = 'none';
+
+            // Video Rotation on Mobile Orientation Change
+            window.addEventListener("orientationchange", function () {
+                let video = document.querySelector(".image-container video");
+                if (!video) return; // Ensure video exists
+
+                if (window.innerWidth <= 768) { // Only apply in mobile view
+                    if (window.orientation === 90 || window.orientation === -90) {
+                        // Landscape Mode
+                        video.style.transform = "rotate(90deg)";
+                        video.style.width = "100vh"; // Adjust width
+                        video.style.height = "100vw"; // Adjust height
+                    } else {
+                        // Portrait Mode
+                        video.style.transform = "rotate(0deg)";
+                        video.style.width = "100%";
+                        video.style.height = "auto";
+                    }
+                }
+            });
+        });
+
+        
+    </script>
+</body>
+</html>
